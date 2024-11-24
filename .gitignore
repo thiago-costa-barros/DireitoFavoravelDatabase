@@ -1,0 +1,20 @@
+# Ignorar arquivos de compilação e temporários
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+
+# Ignorar arquivos de ambiente virtual
+venv/
+env/
+*.env
+
+# Ignorar arquivos de configuração do IDE (ex: VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Ignorar arquivos específicos do sistema operacional
+.DS_Store  # para macOS
+Thumbs.db  # para Windows
